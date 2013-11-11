@@ -1,4 +1,7 @@
-課題ページ [第6回](http://49.212.46.130/~g031k117/cake/prac6s)[ソース](https://github.com/YukiTETSUKA/g031k117)
+課題ページ [第6回](http://49.212.46.130/~g031k117/cake/prac6s)
+
+[基礎課題2ソース](https://github.com/YukiTETSUKA/g031k117/blob/master/app/Controller/Prac6sController.php)
+[基礎課題3ソース](https://github.com/YukiTETSUKA/g031k117/blob/master/app/Controller/Prac6sController.php)
 
 CakePHP
 =======
