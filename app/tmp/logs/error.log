@@ -1,0 +1,1059 @@
+2013-11-06 23:34:06 Error: [MissingControllerException] Controller class HogeController could not be found.
+Exception Attributes: array (
+  'class' => 'HogeController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/hoge/index
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-06 23:35:10 Error: [MissingViewException] View file "/home/g031k117/public_html/cake/app/View/Hoge/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/g031k117/public_html/cake/app/View/Hoge/index.ctp',
+)
+Request URL: /~g031k117/cake/hoge/index
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HogeController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-06 23:59:35 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in [/home/g031k117/public_html/cake/app/Controller/HogeController.php, line 15]
+2013-11-06 23:59:35 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+Request URL: /~g031k117/cake/hoge/input
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 15, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 15, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-06 23:59:53 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in [/home/g031k117/public_html/cake/app/Controller/HogeController.php, line 15]
+2013-11-06 23:59:53 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+Request URL: /~g031k117/cake/hoge/input
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 15, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 15, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-06 23:59:56 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in [/home/g031k117/public_html/cake/app/Controller/HogeController.php, line 15]
+2013-11-06 23:59:56 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+Request URL: /~g031k117/cake/hoge/input
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 15, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 15, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-07 07:54:10 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in [/home/g031k117/public_html/cake/app/Controller/Prac6Controller.php, line 4]
+2013-11-07 07:54:10 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /~g031k117/cake/prac6/index
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 4, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 4, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-07 07:54:45 Error: [MissingViewException] View file "/home/g031k117/public_html/cake/app/View/Prac6/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/g031k117/public_html/cake/app/View/Prac6/index.ctp',
+)
+Request URL: /~g031k117/cake/prac6/index
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6Controller), Object(CakeRequest), Object(CakeResponse))
+#4 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-07 09:04:29 Error: Fatal Error (1): Call to a member function link() on a non-object in [/home/g031k117/public_html/cake/app/Controller/Prac6Controller.php, line 25]
+2013-11-07 09:04:29 Error: [FatalErrorException] Call to a member function link() on a non-object
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/g031k117/...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/g031k117/...', 25, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/g031k117/...', 25, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-07 09:05:33 Error: Fatal Error (1): Call to a member function link() on a non-object in [/home/g031k117/public_html/cake/app/Controller/Prac6Controller.php, line 25]
+2013-11-07 09:05:33 Error: [FatalErrorException] Call to a member function link() on a non-object
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/g031k117/...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/g031k117/...', 25, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/g031k117/...', 25, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-07 09:05:57 Error: Fatal Error (1): Call to a member function link() on a non-object in [/home/g031k117/public_html/cake/app/Controller/Prac6Controller.php, line 25]
+2013-11-07 09:05:57 Error: [FatalErrorException] Call to a member function link() on a non-object
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/g031k117/...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/g031k117/...', 25, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/g031k117/...', 25, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-07 09:07:34 Error: Fatal Error (4): syntax error, unexpected ',' in [/home/g031k117/public_html/cake/app/Controller/Prac6Controller.php, line 25]
+2013-11-07 09:07:34 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 25, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 25, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-07 09:14:46 Error: Fatal Error (1): Unsupported operand types in [/home/g031k117/public_html/cake/app/Controller/Prac6Controller.php, line 27]
+2013-11-07 09:14:46 Error: [FatalErrorException] Unsupported operand types
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/home/g031k117/...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/home/g031k117/...', 27, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/home/g031k117/...', 27, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-07 09:15:09 Error: Fatal Error (1): Unsupported operand types in [/home/g031k117/public_html/cake/app/Controller/Prac6Controller.php, line 29]
+2013-11-07 09:15:09 Error: [FatalErrorException] Unsupported operand types
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/home/g031k117/...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/home/g031k117/...', 29, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/home/g031k117/...', 29, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-07 11:09:59 Error: Fatal Error (4): syntax error, unexpected '$name' (T_VARIABLE), expecting function (T_FUNCTION) in [/home/g031k117/public_html/cake/app/Model/Hoge.php, line 3]
+2013-11-07 11:09:59 Error: [FatalErrorException] syntax error, unexpected '$name' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /~g031k117/cake/hoge/show
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 3, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 3, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 06:38:31 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 38]
+2013-11-08 06:38:31 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 38, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 38, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 06:39:03 Error: Fatal Error (1): Call to undefined function api() in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 24]
+2013-11-08 06:39:03 Error: [FatalErrorException] Call to undefined function api()
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/g031k117/...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/g031k117/...', 24, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/g031k117/...', 24, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 06:39:28 Error: Fatal Error (1): Call to undefined function api() in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 33]
+2013-11-08 06:39:28 Error: [FatalErrorException] Call to undefined function api()
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/g031k117/...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/g031k117/...', 33, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/g031k117/...', 33, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 06:50:12 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 27]
+2013-11-08 06:50:12 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 27, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 27, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 06:58:24 Error: Fatal Error (1): Call to undefined function json_parse() in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 36]
+2013-11-08 06:58:24 Error: [FatalErrorException] Call to undefined function json_parse()
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/g031k117/...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/g031k117/...', 36, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/g031k117/...', 36, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 07:00:56 Error: Fatal Error (1): Call to undefined function json_parse() in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 36]
+2013-11-08 07:00:56 Error: [FatalErrorException] Call to undefined function json_parse()
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/g031k117/...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/g031k117/...', 36, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/g031k117/...', 36, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 07:32:17 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-08 09:25:37 Error: Fatal Error (4): syntax error, unexpected '$result' (T_VARIABLE) in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 8]
+2013-11-08 09:25:37 Error: [FatalErrorException] syntax error, unexpected '$result' (T_VARIABLE)
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 8, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 8, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 09:25:59 Error: Fatal Error (4): syntax error, unexpected end of file in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 10]
+2013-11-08 09:25:59 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 09:26:17 Error: Fatal Error (4): syntax error, unexpected end of file in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 10]
+2013-11-08 09:26:17 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 09:26:29 Error: Fatal Error (4): syntax error, unexpected end of file in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 10]
+2013-11-08 09:26:29 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 09:32:09 Error: Fatal Error (4): syntax error, unexpected end of file in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 10]
+2013-11-08 09:32:09 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 09:32:29 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 7]
+2013-11-08 09:32:29 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/home/g031k117/...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/home/g031k117/...', 7, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/home/g031k117/...', 7, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 09:33:19 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 8]
+2013-11-08 09:33:19 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/home/g031k117/...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/home/g031k117/...', 8, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/home/g031k117/...', 8, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 09:33:38 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 7]
+2013-11-08 09:33:38 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/home/g031k117/...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/home/g031k117/...', 7, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/home/g031k117/...', 7, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 09:34:31 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 8]
+2013-11-08 09:34:31 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/home/g031k117/...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/home/g031k117/...', 8, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/home/g031k117/...', 8, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 09:35:33 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 8]
+2013-11-08 09:35:33 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/home/g031k117/...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/home/g031k117/...', 8, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/home/g031k117/...', 8, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 09:35:46 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 8]
+2013-11-08 09:35:46 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/home/g031k117/...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/home/g031k117/...', 8, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/home/g031k117/...', 8, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:18:18 Error: API connect error
+2013-11-08 10:31:33 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 3]
+2013-11-08 10:31:33 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 3, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 3, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 11:01:45 Error: Fatal Error (1): Call to a member function tag() on a non-object in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 1]
+2013-11-08 11:01:45 Error: [FatalErrorException] Call to a member function tag() on a non-object
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/g031k117/...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/g031k117/...', 1, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/g031k117/...', 1, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 11:03:44 Error: Fatal Error (1): Call to a member function tag() on a non-object in [/home/g031k117/public_html/cake/app/View/Prac6/basic2.ctp, line 1]
+2013-11-08 11:03:44 Error: [FatalErrorException] Call to a member function tag() on a non-object
+Request URL: /~g031k117/cake/prac6/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/g031k117/...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/g031k117/...', 1, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/g031k117/...', 1, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 13:18:38 Error: Fatal Error (4): syntax error, unexpected ''option'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/home/g031k117/public_html/cake/app/View/Prac6/basic3.ctp, line 22]
+2013-11-08 13:18:38 Error: [FatalErrorException] syntax error, unexpected ''option'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /~g031k117/cake/prac6/basic3
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 22, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 22, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 13:38:09 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/g031k117/public_html/cake/app/View/Prac6/basic3.ctp, line 53]
+2013-11-08 13:38:09 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /~g031k117/cake/prac6/basic3
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 53, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 53, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 13:39:47 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/home/g031k117/public_html/cake/app/View/Prac6/basic3.ctp, line 47]
+2013-11-08 13:39:47 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /~g031k117/cake/prac6/basic3
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 47, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 47, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 14:09:50 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/home/g031k117/public_html/cake/app/View/Prac6/basic3.ctp, line 30]
+2013-11-08 14:09:50 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /~g031k117/cake/prac6/basic3
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 30, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 30, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 14:14:16 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/View/Prac6/basic3.ctp, line 32]
+2013-11-08 14:14:16 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/prac6/basic3
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 32, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 32, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 14:20:10 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/View/Prac6/basic3.ctp, line 32]
+2013-11-08 14:20:10 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/prac6/basic3
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 32, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 32, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 14:20:19 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/g031k117/public_html/cake/app/View/Prac6/basic3.ctp, line 32]
+2013-11-08 14:20:19 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /~g031k117/cake/prac6/basic3
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 32, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 32, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 15:23:03 Error: [MissingHelperException] Helper class FromHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FromHelper',
+  'plugin' => false,
+)
+Request URL: /~g031k117/cake/prac6/basic3
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('From')
+#1 /home/g031k117/public_html/cake/lib/Cake/View/View.php(833): HelperCollection->__isset('From')
+#2 /home/g031k117/public_html/cake/app/View/Prac6/basic3.ctp(39): View->__get('From')
+#3 /home/g031k117/public_html/cake/lib/Cake/View/View.php(945): include('/home/g031k117/...')
+#4 /home/g031k117/public_html/cake/lib/Cake/View/View.php(907): View->_evaluate('/home/g031k117/...', Array)
+#5 /home/g031k117/public_html/cake/lib/Cake/View/View.php(471): View->_render('/home/g031k117/...')
+#6 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#7 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6Controller), Object(CakeRequest), Object(CakeResponse))
+#9 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-08 16:01:02 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/g031k117/public_html/cake/app/View/Prac6/basic3.ctp, line 36]
+2013-11-08 16:01:02 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /~g031k117/cake/prac6/basic3
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 36, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 36, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-10 14:20:08 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6/
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:20:22 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6/
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:20:24 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6/
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:20:55 Error: [MissingControllerException] Controller class Prac6sController could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6sController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6s/
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:23:03 Error: [MissingControllerException] Controller class Prac6sController could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6sController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6s/
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:23:06 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6/
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:23:54 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6/
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:24:07 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6/
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:24:18 Error: [MissingTableException] Table prac6s for model Prac6 was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'prac6s',
+  'class' => 'Prac6',
+  'ds' => 'default',
+)
+Request URL: /~g031k117/cake/prac6s/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(3247): Model->setSource('prac6s')
+#1 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(799): Model->getDataSource()
+#2 /home/g031k117/public_html/cake/app/Controller/Prac6sController.php(13): Model->__call('useApi', Array)
+#3 /home/g031k117/public_html/cake/app/Controller/Prac6sController.php(13): AppModel->useApi()
+#4 [internal function]: Prac6sController->basic2()
+#5 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(Prac6sController), Array)
+#6 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#7 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-11-10 14:25:11 Error: [MissingTableException] Table prac6s for model Prac6 was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'prac6s',
+  'class' => 'Prac6',
+  'ds' => 'default',
+)
+Request URL: /~g031k117/cake/prac6s/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(3247): Model->setSource('prac6s')
+#1 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(799): Model->getDataSource()
+#2 /home/g031k117/public_html/cake/app/Controller/Prac6sController.php(13): Model->__call('useApi', Array)
+#3 /home/g031k117/public_html/cake/app/Controller/Prac6sController.php(13): AppModel->useApi()
+#4 [internal function]: Prac6sController->basic2()
+#5 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(Prac6sController), Array)
+#6 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#7 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-11-10 14:27:19 Error: [MissingTableException] Table prac6s for model Prac6 was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'prac6s',
+  'class' => 'Prac6',
+  'ds' => 'default',
+)
+Request URL: /~g031k117/cake/prac6s/basic2
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(3247): Model->setSource('prac6s')
+#1 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(799): Model->getDataSource()
+#2 /home/g031k117/public_html/cake/app/Controller/Prac6sController.php(13): Model->__call('useApi', Array)
+#3 /home/g031k117/public_html/cake/app/Controller/Prac6sController.php(13): AppModel->useApi()
+#4 [internal function]: Prac6sController->basic2()
+#5 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(Prac6sController), Array)
+#6 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#7 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-11-10 14:31:32 Error: [MissingViewException] View file "/home/g031k117/public_html/cake/app/View/Prac6s/basic3_result.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/g031k117/public_html/cake/app/View/Prac6s/basic3_result.ctp',
+)
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-10 14:31:35 Error: [MissingViewException] View file "/home/g031k117/public_html/cake/app/View/Prac6s/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/g031k117/public_html/cake/app/View/Prac6s/index.ctp',
+)
+Request URL: /~g031k117/cake/prac6s
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-10 14:32:51 Error: [MissingControllerException] Controller class Prac6sController could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6sController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6s
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:33:04 Error: [MissingControllerException] Controller class Prac6sController could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6sController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6s
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:33:06 Error: [MissingControllerException] Controller class Prac6sController could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6sController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6s
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:33:07 Error: [MissingControllerException] Controller class Prac6sController could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6sController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6s
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:33:07 Error: [MissingControllerException] Controller class Prac6sController could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6sController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6s
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:33:37 Error: [MissingControllerException] Controller class Prac6sController could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6sController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6s
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:33:39 Error: [MissingControllerException] Controller class Prac6sController could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6sController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6s
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:33:50 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:34:15 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:34:17 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:34:21 Error: [MissingControllerException] Controller class Prac6sController could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6sController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6s
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:34:24 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:35:53 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 14:36:00 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-10 17:47:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'hoge' at line 1
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('hoge', Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('hoge', Array, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('hoge', Array, Array)
+#4 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(799): DboSource->query('hoge', Array, Object(Prac6))
+#5 /home/g031k117/public_html/cake/app/Controller/Prac6sController.php(22): Model->__call('hoge', Array)
+#6 /home/g031k117/public_html/cake/app/Controller/Prac6sController.php(22): Prac6->hoge(Array)
+#7 [internal function]: Prac6sController->basic3_result()
+#8 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(Prac6sController), Array)
+#9 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-10 17:55:43 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'hoge' at line 1
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('hoge', Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('hoge', Array, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('hoge', Array, Array)
+#4 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(799): DboSource->query('hoge', Array, Object(Prac6))
+#5 /home/g031k117/public_html/cake/app/Controller/Prac6sController.php(22): Model->__call('hoge', Array)
+#6 /home/g031k117/public_html/cake/app/Controller/Prac6sController.php(22): Prac6->hoge(Array)
+#7 [internal function]: Prac6sController->basic3_result()
+#8 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(Prac6sController), Array)
+#9 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-11 09:06:46 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'hoge' at line 1
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('hoge', Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('hoge', Array, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('hoge', Array, Array)
+#4 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(799): DboSource->query('hoge', Array, Object(Prac6))
+#5 /home/g031k117/public_html/cake/app/Controller/Prac6sController.php(22): Model->__call('hoge', Array)
+#6 /home/g031k117/public_html/cake/app/Controller/Prac6sController.php(22): Prac6->hoge(Array)
+#7 [internal function]: Prac6sController->basic3_result()
+#8 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(Prac6sController), Array)
+#9 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-11 09:29:20 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 63]
+2013-11-11 09:29:20 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 63, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 63, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-11 09:29:54 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 64]
+2013-11-11 09:29:54 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 64, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 64, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-11 09:38:25 Error: Fatal Error (1): Call to a member function hidden() on a non-object in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 72]
+2013-11-11 09:38:25 Error: [FatalErrorException] Call to a member function hidden() on a non-object
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/g031k117/...', 72)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/g031k117/...', 72, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/g031k117/...', 72, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-11 09:52:10 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 65]
+2013-11-11 09:52:10 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 65, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 65, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-11 09:52:43 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 65]
+2013-11-11 09:52:43 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 65, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 65, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-11 09:58:20 Error: [MissingControllerException] Controller class Prac6Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Prac6Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/prac6
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-11 20:42:26 Error: Fatal Error (4): syntax error, unexpected '?>', expecting ':' in [/home/g031k117/public_html/cake/app/View/Prac6/basic3_result.ctp, line 21]
+2013-11-11 20:42:26 Error: [FatalErrorException] syntax error, unexpected '?>', expecting ':'
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 21, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 21, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-11 21:10:26 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 52]
+2013-11-11 21:10:26 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 52, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 52, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-11 21:10:40 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 52]
+2013-11-11 21:10:40 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 52, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 52, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-11 21:35:02 Error: [MissingHelperException] Helper class htmlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'htmlHelper',
+  'plugin' => false,
+)
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('html')
+#1 /home/g031k117/public_html/cake/lib/Cake/View/View.php(833): HelperCollection->__isset('html')
+#2 /home/g031k117/public_html/cake/app/View/Prac6/basic3_result.ctp(3): View->__get('html')
+#3 /home/g031k117/public_html/cake/lib/Cake/View/View.php(945): include('/home/g031k117/...')
+#4 /home/g031k117/public_html/cake/lib/Cake/View/View.php(907): View->_evaluate('/home/g031k117/...', Array)
+#5 /home/g031k117/public_html/cake/lib/Cake/View/View.php(471): View->_render('/home/g031k117/...')
+#6 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#7 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-12 00:22:21 Error: [MissingViewException] View file "/home/g031k117/public_html/cake/app/View/ReportAboutFramework/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/g031k117/public_html/cake/app/View/ReportAboutFramework/index.ctp',
+)
+Request URL: /~g031k117/cake/reportAboutFrameworks
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(reportAboutFrameworksController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-12 00:40:35 Error: [MissingViewException] View file "/home/g031k117/public_html/cake/app/View/reportAboutFrameworks/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/g031k117/public_html/cake/app/View/reportAboutFrameworks/index.ctp',
+)
+Request URL: /~g031k117/cake/reportAboutFrameworks
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(reportAboutFrameworksController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-12 00:41:57 Error: Fatal Error (4): syntax error, unexpected '$name' (T_VARIABLE), expecting function (T_FUNCTION) in [/home/g031k117/public_html/cake/app/Controller/ReportAboutFrameworksController.php, line 3]
+2013-11-12 00:41:57 Error: [FatalErrorException] syntax error, unexpected '$name' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /~g031k117/cake/reportAboutFrameworks
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 3, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 3, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-12 01:51:10 Error: Fatal Error (4): syntax error, unexpected '?>' in [/home/g031k117/public_html/cake/app/View/Layouts/default.ctp, line 48]
+2013-11-12 01:51:10 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /~g031k117/cake/reportAboutFrameworks
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 48, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 48, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-12 01:51:22 Error: Fatal Error (4): syntax error, unexpected '?>' in [/home/g031k117/public_html/cake/app/View/Layouts/default.ctp, line 50]
+2013-11-12 01:51:22 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /~g031k117/cake/reportAboutFrameworks
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 50, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 50, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-12 01:53:51 Error: Fatal Error (4): syntax error, unexpected '?>' in [/home/g031k117/public_html/cake/app/View/Layouts/default.ctp, line 44]
+2013-11-12 01:53:51 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /~g031k117/cake/reportAboutFrameworks
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 44, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 44, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-12 01:54:10 Error: Fatal Error (4): syntax error, unexpected '?>' in [/home/g031k117/public_html/cake/app/View/Layouts/default.ctp, line 44]
+2013-11-12 01:54:10 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /~g031k117/cake/reportAboutFrameworks
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 44, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 44, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-12 01:54:19 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/View/Layouts/default.ctp, line 44]
+2013-11-12 01:54:19 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/reportAboutFrameworks
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 44, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 44, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-12 03:49:37 Error: Fatal Error (4): syntax error, unexpected '{' in [/home/g031k117/public_html/cake/app/Model/Prac6.php, line 50]
+2013-11-12 03:49:37 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /~g031k117/cake/prac6s/basic3_result
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 50, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 50, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-12 04:59:09 Error: [MissingActionException] Action Prac6Controller::b49.212.46.130() could not be found.
+Exception Attributes: array (
+  'controller' => 'Prac6Controller',
+  'action' => 'b49.212.46.130',
+)
+Request URL: /~g031k117/cake/prac6s/b49.212.46.130/~g031k117/cake/reportAboutFramewor
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-12 04:59:38 Error: [MissingActionException] Action Prac6Controller::b49.212.46.130() could not be found.
+Exception Attributes: array (
+  'controller' => 'Prac6Controller',
+  'action' => 'b49.212.46.130',
+)
+Request URL: /~g031k117/cake/prac6s/b49.212.46.130/~g031k117/cake/reportAboutFramewor
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-12 04:59:42 Error: [MissingActionException] Action Prac6Controller::b49.212.46.130() could not be found.
+Exception Attributes: array (
+  'controller' => 'Prac6Controller',
+  'action' => 'b49.212.46.130',
+)
+Request URL: /~g031k117/cake/prac6s/b49.212.46.130/~g031k117/cake/reportAboutFramewor
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-12 04:59:46 Error: [MissingActionException] Action Prac6Controller::b49.212.46.130() could not be found.
+Exception Attributes: array (
+  'controller' => 'Prac6Controller',
+  'action' => 'b49.212.46.130',
+)
+Request URL: /~g031k117/cake/prac6s/b49.212.46.130/~g031k117/cake/reportAboutFramewor
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-12 04:59:48 Error: [MissingActionException] Action Prac6Controller::b49.212.46.130() could not be found.
+Exception Attributes: array (
+  'controller' => 'Prac6Controller',
+  'action' => 'b49.212.46.130',
+)
+Request URL: /~g031k117/cake/prac6s/b49.212.46.130/~g031k117/cake/reportAboutFramewor
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-12 04:59:52 Error: [MissingControllerException] Controller class ReportAboutFrameworController could not be found.
+Exception Attributes: array (
+  'class' => 'ReportAboutFrameworController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/reportAboutFramewor
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
