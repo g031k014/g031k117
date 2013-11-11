@@ -35,7 +35,7 @@
 
                 for($i = 0; $i < count($hatena->item); $i++){
                     // Yahoo!キーフレーズ抽出API
-                    $keyphrase = $this->api("http://jlp.yahooapis.jp/KeyphraseService/V1/extract?appid=dj0zaiZpPWgyRzlvNHBaWjFVYSZzPWNvbnN1bWVyc2VjcmV0Jng9MTM-&output=xml&sentence=" . urlencode($hatena->item->$i->title));
+                    $keyphrase = $this->api("http://jlp.yahooapis.jp/KeyphraseService/V1/extract?appid=hogehoge" . urlencode($hatena->item->$i->title));
                     $keyphrase = simplexml_load_string($keyphrase);
 
                     $result['bookmark'][$i] = array('title' => $hatena->item->$i->title, 'link' => $hatena->item->$i->link, 'description' => $hatena->item->$i->description, 'keyphrase' => $keyphrase);
