@@ -1,4 +1,4 @@
-課題ページ [第6回](https://github.com/YukiTETSUKA/g031k117)
+課題ページ [第6回](http://49.212.46.130/~g031k117/cake/prac6s)[ソース](https://github.com/YukiTETSUKA/g031k117)
 
 CakePHP
 =======
