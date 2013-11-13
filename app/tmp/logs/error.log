@@ -1057,3 +1057,13 @@ Request URL: /~g031k117/cake/reportAboutFramewor
 Stack Trace:
 #0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-11-13 06:27:31 Error: Fatal Error (4): syntax error, unexpected '<' in [/home/g031k117/public_html/cake/app/View/Layouts/default.ctp, line 39]
+2013-11-13 06:27:31 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /~g031k117/cake/prac6s
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 39, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 39, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -11,7 +11,7 @@
 
     // 性別
     echo $this->Form->label('sex', '性別', array());
-    echo $this->Form->radio('sex', array(0 => 'male', 1 => 'female'), array('legend' => false, 'default' => 1));
+    echo $this->Form->radio('sex', array(0 => '男', 1 => '女'), array('legend' => false, 'default' => 1));
 
     // 学年
     echo $this->Form->label('grade', '学年', array());
