@@ -1,5 +1,5 @@
 [演習ページ](http://offsidenow.phpapps.jp/%E5%88%9D%E5%BF%83%E8%80%85%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AEphp%E5%85%A5%E9%96%80%E6%BC%94%E7%BF%92)
-=======
+-------
 
 
 
@@ -9,6 +9,7 @@
 -------
 
 [基礎課題1ソース](https://github.com/YukiTETSUKA/g031k117/blob/master/app/Controller/BoardsController.php)
+
 [発展課題1ソース](https://github.com/YukiTETSUKA/g031k117/blob/master/app/Controller/BoardsController.php)
 
 [第6回](http://49.212.46.130/~g031k117/cake/prac6s)
