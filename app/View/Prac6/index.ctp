@@ -8,10 +8,11 @@
 
 <body>
     index<br />
-    <?php echo $this->Html->link('kasic1', 'http://49.212.46.130/~g031k117/cake/reportAboutFrameworks', array('class' => 'btn')); ?><br />
-    <?php echo $this->Html->link('basic2', 'basic2', array('class' => 'btn')); ?><br />
-    <?php echo $this->Html->link('basic3', 'basic3', array('class' => 'btn')); ?><br />
-    <?php echo $this->Html->link('dev1', 'dev1', array('class' => 'btn')); ?><br />
-    <?php echo $this->Html->link('dev2', 'dev2', array('class' => 'btn')); ?><br />
+    <?php echo $this->Html->link('basic1', 'http://49.212.46.130/~g031k117/cake/reportAboutFrameworks', array('class' => 'btn btn-default')); ?><br />
+    <?php echo $this->Html->link('basic2', 'basic2', array('class' => 'btn btn-default')); ?><br />
+    <?php echo $this->Html->link('basic3', 'basic3', array('class' => 'btn btn-default')); ?><br />
+    <?php echo $this->Html->link('dev1', 'dev1', array('class' => 'btn btn-default')); ?><br />
+    <?php echo $this->Html->link('dev2', 'dev2', array('class' => 'btn btn-default')); ?><br /><br />
+    発展課題やりました
 </body>
 </html>

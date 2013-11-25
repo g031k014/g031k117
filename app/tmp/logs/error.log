@@ -1067,3 +1067,793 @@ Stack Trace:
 #3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-11-14 11:09:55 Error: Fatal Error (4): syntax error, unexpected '-', expecting ',' or ';' in [/home/g031k117/public_html/cake/app/Controller/BoardsController.php, line 5]
+2013-11-14 11:09:55 Error: [FatalErrorException] syntax error, unexpected '-', expecting ',' or ';'
+Request URL: /~g031k117/cake/boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 5, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 5, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 11:10:30 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/Controller/BoardsController.php, line 8]
+2013-11-14 11:10:30 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 8, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 8, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 11:15:30 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/Controller/BoardsController.php, line 8]
+2013-11-14 11:15:30 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 8, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 8, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 17:44:58 Error: [MissingActionException] Action BoardsController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'BoardsController',
+  'action' => 'edit',
+)
+Request URL: /~g031k117/cake/boards/edit/92
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-14 17:54:55 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/home/g031k117/public_html/cake/app/Controller/BoardsController.php, line 8]
+2013-11-14 17:54:55 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /~g031k117/cake/boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 8, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 8, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-14 17:55:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'desc' in 'order clause'
+Request URL: /~g031k117/cake/boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Board`....', Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Board`....', Array, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Board`....', false)
+#4 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Board), Array)
+#5 /home/g031k117/public_html/cake/app/Controller/BoardsController.php(8): Model->find('all', Array)
+#6 [internal function]: BoardsController->index()
+#7 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BoardsController), Array)
+#8 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-11-14 18:08:12 Error: [MissingActionException] Action BoardsController::contribute() could not be found.
+Exception Attributes: array (
+  'controller' => 'BoardsController',
+  'action' => 'contribute',
+)
+Request URL: /~g031k117/cake/boards/contribute
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-14 18:37:31 Error: [MissingActionException] Action BoardsController::contribute() could not be found.
+Exception Attributes: array (
+  'controller' => 'BoardsController',
+  'action' => 'contribute',
+)
+Request URL: /~g031k117/cake/boards/contribute
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-14 18:50:48 Error: [MissingViewException] View file "/home/g031k117/public_html/cake/app/View/Boards/contribute.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/g031k117/public_html/cake/app/View/Boards/contribute.ctp',
+)
+Request URL: /~g031k117/cake/boards/contribute
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-15 01:47:26 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/View/Boards/contribute.ctp, line 6]
+2013-11-15 01:47:26 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/boards/contribute
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 6, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 6, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-15 01:58:06 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ')' in [/home/g031k117/public_html/cake/app/View/Boards/contribute.ctp, line 5]
+2013-11-15 01:58:06 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ')'
+Request URL: /~g031k117/cake/boards/contribute
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 5, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 5, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-15 01:59:21 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ')' in [/home/g031k117/public_html/cake/app/View/Boards/contribute.ctp, line 5]
+2013-11-15 01:59:21 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ')'
+Request URL: /~g031k117/cake/boards/contribute
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 5, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 5, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-15 02:08:27 Error: [MissingControllerException] Controller class ContributesController could not be found.
+Exception Attributes: array (
+  'class' => 'ContributesController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/contributes
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-15 02:14:22 Error: [MissingControllerException] Controller class ContributesController could not be found.
+Exception Attributes: array (
+  'class' => 'ContributesController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/contributes/index
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-15 02:15:19 Error: [MissingControllerException] Controller class ContributesController could not be found.
+Exception Attributes: array (
+  'class' => 'ContributesController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/contributes/index
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-15 02:15:45 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/index
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-15 02:16:07 Error: [MissingControllerException] Controller class ContributesController could not be found.
+Exception Attributes: array (
+  'class' => 'ContributesController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/contributes/borads/index
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-15 02:17:53 Error: [MissingControllerException] Controller class ContributesController could not be found.
+Exception Attributes: array (
+  'class' => 'ContributesController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/contributes/registration
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-15 02:18:07 Error: [MissingActionException] Action BoardsController::registration() could not be found.
+Exception Attributes: array (
+  'controller' => 'BoardsController',
+  'action' => 'registration',
+)
+Request URL: /~g031k117/cake/boards/registration
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-15 12:22:00 Error: [PrivateActionException] Private Action BoardsController::registration() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'BoardsController',
+  'action' => 'registration',
+)
+Request URL: /~g031k117/cake/boards/registration
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-15 12:22:48 Error: [PrivateActionException] Private Action BoardsController::registration() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'BoardsController',
+  'action' => 'registration',
+)
+Request URL: /~g031k117/cake/boards/registration
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-15 12:23:22 Error: [PrivateActionException] Private Action BoardsController::registration() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'BoardsController',
+  'action' => 'registration',
+)
+Request URL: /~g031k117/cake/boards/registration
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-15 21:12:13 Error: Fatal Error (4): syntax error, unexpected '$name' (T_VARIABLE), expecting function (T_FUNCTION) in [/home/g031k117/public_html/cake/app/Controller/HacksController.php, line 3]
+2013-11-15 21:12:13 Error: [FatalErrorException] syntax error, unexpected '$name' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /~g031k117/cake/hacks
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 3, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 3, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-15 21:12:55 Error: Fatal Error (4): syntax error, unexpected '$name' (T_VARIABLE), expecting function (T_FUNCTION) in [/home/g031k117/public_html/cake/app/Controller/HacksController.php, line 3]
+2013-11-15 21:12:55 Error: [FatalErrorException] syntax error, unexpected '$name' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /~g031k117/cake/hacks
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 3, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 3, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-15 21:13:14 Error: [MissingPluginException] Plugin debugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'debugKit',
+)
+Request URL: /~g031k117/cake/hacks
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(367): CakePlugin::path('debugKit')
+#1 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(228): App::pluginPath('debugKit')
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(549): App::path('Controller/Comp...', 'debugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 /home/g031k117/public_html/cake/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 /home/g031k117/public_html/cake/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('debugKit.Toolba...', Array)
+#7 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(HacksController))
+#8 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(183): Controller->constructClasses()
+#9 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HacksController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-11-15 22:12:41 Error: Fatal Error (4): syntax error, unexpected 'http' (T_STRING), expecting ')' in [/home/g031k117/public_html/cake/app/View/Hacks/index.ctp, line 17]
+2013-11-15 22:12:41 Error: [FatalErrorException] syntax error, unexpected 'http' (T_STRING), expecting ')'
+Request URL: /~g031k117/cake/hacks
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 17, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 17, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-15 22:36:38 Error: [MissingActionException] Action Prac7sController::Hacks() could not be found.
+Exception Attributes: array (
+  'controller' => 'Prac7sController',
+  'action' => 'Hacks',
+)
+Request URL: /~g031k117/cake/prac7s/Hacks
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac7sController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-15 22:39:08 Error: Fatal Error (4): syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/home/g031k117/public_html/cake/app/Controller/BoardsController.php, line 19]
+2013-11-15 22:39:08 Error: [FatalErrorException] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /~g031k117/cake/boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 19, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 19, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-15 22:39:56 Error: Fatal Error (4): syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/home/g031k117/public_html/cake/app/Controller/BoardsController.php, line 19]
+2013-11-15 22:39:56 Error: [FatalErrorException] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /~g031k117/cake/boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 19, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 19, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-15 22:45:02 Error: Fatal Error (4): syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/home/g031k117/public_html/cake/app/Controller/BoardsController.php, line 19]
+2013-11-15 22:45:02 Error: [FatalErrorException] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /~g031k117/cake/boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 19, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 19, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-16 00:55:07 Error: Fatal Error (4): syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/home/g031k117/public_html/cake/app/Controller/BoardsController.php, line 19]
+2013-11-16 00:55:07 Error: [FatalErrorException] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /~g031k117/cake/boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 19, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 19, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-16 00:55:46 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/home/g031k117/public_html/cake/app/Model/Board.php, line 7]
+2013-11-16 00:55:46 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /~g031k117/cake/boards/delete/91
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/g031k117/...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/g031k117/...', 7, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/g031k117/...', 7, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-16 00:56:42 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/home/g031k117/public_html/cake/app/Model/Board.php, line 7]
+2013-11-16 00:56:42 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /~g031k117/cake/boards/delete/91
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/g031k117/...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/g031k117/...', 7, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/g031k117/...', 7, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-16 00:57:17 Error: Fatal Error (1): Using $this when not in object context in [/home/g031k117/public_html/cake/app/Model/Board.php, line 2]
+2013-11-16 00:57:17 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /~g031k117/cake/boards/delete/91
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Using $this whe...', '/home/g031k117/...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', '/home/g031k117/...', 2, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', '/home/g031k117/...', 2, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-16 00:57:32 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/home/g031k117/public_html/cake/app/Model/Board.php, line 8]
+2013-11-16 00:57:32 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /~g031k117/cake/boards/delete/91
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/g031k117/...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/g031k117/...', 8, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/g031k117/...', 8, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-16 11:07:09 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/home/g031k117/public_html/cake/app/View/Boards/index.ctp, line 10]
+2013-11-16 11:07:09 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /~g031k117/cake/boards/index
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-16 11:07:28 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/View/Boards/index.ctp, line 10]
+2013-11-16 11:07:28 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/boards/index
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-16 11:07:32 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/View/Boards/index.ctp, line 10]
+2013-11-16 11:07:32 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/boards/index
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-16 11:07:35 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/View/Boards/index.ctp, line 10]
+2013-11-16 11:07:35 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/boards/index
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 10, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-17 01:48:17 Error: Fatal Error (4): syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/home/g031k117/public_html/cake/app/Controller/BoardsController.php, line 19]
+2013-11-17 01:48:17 Error: [FatalErrorException] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /~g031k117/cake/boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 19, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 19, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-17 02:12:17 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/g031k117/public_html/cake/app/Model/Board.php, line 15]
+2013-11-17 02:12:17 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /~g031k117/cake/boards/edit/92
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/g031k117/...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/g031k117/...', 15, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/g031k117/...', 15, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-17 02:13:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Boards.id' in 'where clause'
+Request URL: /~g031k117/cake/boards/edit/92
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Board`....', Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Board`....', Array, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Board`....', false)
+#4 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Board), Array)
+#5 /home/g031k117/public_html/cake/app/Model/Board.php(15): Model->find('first', Array)
+#6 /home/g031k117/public_html/cake/app/Controller/BoardsController.php(20): Board->getComment(Array)
+#7 [internal function]: BoardsController->edit('92')
+#8 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BoardsController), Array)
+#9 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-17 02:14:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Boards.id' in 'where clause'
+Request URL: /~g031k117/cake/boards/edit/92
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Board`....', Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Board`....', Array, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Board`....', false)
+#4 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Board), Array)
+#5 /home/g031k117/public_html/cake/app/Model/Board.php(15): Model->find('first', Array)
+#6 /home/g031k117/public_html/cake/app/Controller/BoardsController.php(20): Board->getComment(Array)
+#7 [internal function]: BoardsController->edit('92')
+#8 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BoardsController), Array)
+#9 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-17 02:19:10 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/View/Boards/form.ctp, line 8]
+2013-11-17 02:19:10 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/boards/edit/92
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 8, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 8, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-17 14:32:31 Error: [MissingActionException] Action BoardsController::registration() could not be found.
+Exception Attributes: array (
+  'controller' => 'BoardsController',
+  'action' => 'registration',
+)
+Request URL: /~g031k117/cake/boards/registration
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-17 14:53:28 Error: [MissingActionException] Action BoardsController::registration() could not be found.
+Exception Attributes: array (
+  'controller' => 'BoardsController',
+  'action' => 'registration',
+)
+Request URL: /~g031k117/cake/boards/registration
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-17 14:53:37 Error: [MissingViewException] View file "/home/g031k117/public_html/cake/app/View/Boards/contribute_check.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/g031k117/public_html/cake/app/View/Boards/contribute_check.ctp',
+)
+Request URL: /~g031k117/cake/boards/contributeCheck
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-17 15:18:10 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contrbuteCheck' at line 1
+Request URL: /~g031k117/cake/boards/contributeCheck
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('contrbuteCheck', Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('contrbuteCheck', Array, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('contrbuteCheck', Array, Array)
+#4 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(799): DboSource->query('contrbuteCheck', Array, Object(Board))
+#5 /home/g031k117/public_html/cake/app/Controller/BoardsController.php(40): Model->__call('contrbuteCheck', Array)
+#6 /home/g031k117/public_html/cake/app/Controller/BoardsController.php(40): Board->contrbuteCheck(Array)
+#7 [internal function]: BoardsController->contributeCheck()
+#8 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BoardsController), Array)
+#9 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-17 15:18:51 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contrbuteCheck' at line 1
+Request URL: /~g031k117/cake/boards/contributeCheck
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('contrbuteCheck', Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('contrbuteCheck', Array, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('contrbuteCheck', Array, Array)
+#4 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(799): DboSource->query('contrbuteCheck', Array, Object(Board))
+#5 /home/g031k117/public_html/cake/app/Controller/BoardsController.php(40): Model->__call('contrbuteCheck', Array)
+#6 /home/g031k117/public_html/cake/app/Controller/BoardsController.php(40): Board->contrbuteCheck(Array)
+#7 [internal function]: BoardsController->contributeCheck()
+#8 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BoardsController), Array)
+#9 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-17 15:19:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contrbuteCheck' at line 1
+Request URL: /~g031k117/cake/boards/contributeCheck
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('contrbuteCheck', Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('contrbuteCheck', Array, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('contrbuteCheck', Array, Array)
+#4 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(799): DboSource->query('contrbuteCheck', Array, Object(Board))
+#5 /home/g031k117/public_html/cake/app/Controller/BoardsController.php(40): Model->__call('contrbuteCheck', Array)
+#6 /home/g031k117/public_html/cake/app/Controller/BoardsController.php(40): Board->contrbuteCheck(Array)
+#7 [internal function]: BoardsController->contributeCheck()
+#8 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BoardsController), Array)
+#9 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-17 15:27:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contrbuteCheck' at line 1
+Request URL: /~g031k117/cake/boards/contributeCheck
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('contrbuteCheck', Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('contrbuteCheck', Array, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('contrbuteCheck', Array, Array)
+#4 /home/g031k117/public_html/cake/lib/Cake/Model/Model.php(799): DboSource->query('contrbuteCheck', Array, Object(Board))
+#5 /home/g031k117/public_html/cake/app/Controller/BoardsController.php(40): Model->__call('contrbuteCheck', Array)
+#6 /home/g031k117/public_html/cake/app/Controller/BoardsController.php(40): Board->contrbuteCheck(Array)
+#7 [internal function]: BoardsController->contributeCheck()
+#8 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BoardsController), Array)
+#9 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-11-17 15:39:30 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/View/Boards/form.ctp, line 13]
+2013-11-17 15:39:30 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/boards/edit/86
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 13, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 13, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-17 16:26:06 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [/home/g031k117/public_html/cake/app/View/Boards/form.ctp, line 1]
+2013-11-17 16:26:06 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /~g031k117/cake/boards/form
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 1, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 1, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-17 16:26:18 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/View/Boards/form.ctp, line 1]
+2013-11-17 16:26:18 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/boards/form
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 1, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 1, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-17 16:26:24 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/g031k117/public_html/cake/app/View/Boards/form.ctp, line 1]
+2013-11-17 16:26:24 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~g031k117/cake/boards/form
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 1, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 1, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-17 16:27:18 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/g031k117/public_html/cake/app/View/Boards/form.ctp, line 1]
+2013-11-17 16:27:18 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /~g031k117/cake/boards/form
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 1, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 1, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-18 00:34:36 Error: [MissingActionException] Action BoardsController::check() could not be found.
+Exception Attributes: array (
+  'controller' => 'BoardsController',
+  'action' => 'check',
+)
+Request URL: /~g031k117/cake/boards/check
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(BoardsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-18 01:46:23 Error: Fatal Error (4): syntax error, unexpected '}', expecting ']' in [/home/g031k117/public_html/cake/app/Controller/BoardsController.php, line 43]
+2013-11-18 01:46:23 Error: [FatalErrorException] syntax error, unexpected '}', expecting ']'
+Request URL: /~g031k117/cake/boards/check
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 43, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 43, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-18 01:53:17 Error: Fatal Error (1): Call to undefined method View::redirect() in [/home/g031k117/public_html/cake/app/View/Boards/form.ctp, line 13]
+2013-11-18 01:53:17 Error: [FatalErrorException] Call to undefined method View::redirect()
+Request URL: /~g031k117/cake/boards/edit/86
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/g031k117/...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/g031k117/...', 13, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/g031k117/...', 13, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-18 23:15:55 Error: Fatal Error (4): syntax error, unexpected 'default' (T_DEFAULT) in [/home/g031k117/public_html/cake/app/Model/Board.php, line 29]
+2013-11-18 23:15:55 Error: [FatalErrorException] syntax error, unexpected 'default' (T_DEFAULT)
+Request URL: /~g031k117/cake/boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 29, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 29, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-21 02:09:18 Error: [MissingControllerException] Controller class CheckController could not be found.
+Exception Attributes: array (
+  'class' => 'CheckController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/check
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-21 02:12:00 Error: [MissingControllerException] Controller class PracsController could not be found.
+Exception Attributes: array (
+  'class' => 'PracsController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/pracs
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-21 02:45:35 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [/home/g031k117/public_html/cake/app/View/Boards/check.ctp, line 7]
+2013-11-21 02:45:35 Error: [FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /~g031k117/cake/boards/check
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 7, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 7, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-21 09:17:13 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/g031k117/public_html/cake/app/Model/Board.php, line 61]
+2013-11-21 09:17:13 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /~g031k117/cake/boards/registration
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 61, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 61, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-21 09:18:58 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/home/g031k117/public_html/cake/app/Model/Board.php, line 65]
+2013-11-21 09:18:58 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /~g031k117/cake/boards/check
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 65, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 65, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-21 09:20:13 Error: Fatal Error (4): syntax error, unexpected '{', expecting '(' in [/home/g031k117/public_html/cake/app/Model/Board.php, line 62]
+2013-11-21 09:20:13 Error: [FatalErrorException] syntax error, unexpected '{', expecting '('
+Request URL: /~g031k117/cake/boards/check
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 62, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 62, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-21 11:08:36 Error: Fatal Error (4): syntax error, unexpected '{' in [/home/g031k117/public_html/cake/app/Controller/BoardsController.php, line 43]
+2013-11-21 11:08:36 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /~g031k117/cake/boards/check
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 43, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 43, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-21 11:50:44 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/home/g031k117/public_html/cake/app/View/Boards/index.ctp, line 13]
+2013-11-21 11:50:44 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /~g031k117/cake/boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 13, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 13, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-21 11:51:07 Error: Fatal Error (4): syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in [/home/g031k117/public_html/cake/app/View/Boards/index.ctp, line 13]
+2013-11-21 11:51:07 Error: [FatalErrorException] syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM)
+Request URL: /~g031k117/cake/boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/g031k117/...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/g031k117/...', 13, Array)
+#2 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/g031k117/...', 13, Array)
+#3 /home/g031k117/public_html/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-21 11:57:25 Error: [MissingLayoutException] Layout file "/home/g031k117/public_html/cake/app/View/Layouts/prac.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/g031k117/public_html/cake/app/View/Layouts/prac.ctp',
+)
+Request URL: /~g031k117/cake/prac6s
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/View/View.php(509): View->_getLayoutFileName('prac')
+#1 /home/g031k117/public_html/cake/lib/Cake/View/View.php(479): View->renderLayout('', 'prac')
+#2 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#3 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#4 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac6sController), Object(CakeRequest), Object(CakeResponse))
+#5 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-11-21 17:55:11 Error: [MissingControllerException] Controller class PracusController could not be found.
+Exception Attributes: array (
+  'class' => 'PracusController',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/pracus
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-24 00:57:35 Error: [MissingControllerException] Controller class ~g031k117Controller could not be found.
+Exception Attributes: array (
+  'class' => '~g031k117Controller',
+  'plugin' => NULL,
+)
+Request URL: /~g031k117/cake/%7Eg031k117/cake/Boards
+Stack Trace:
+#0 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-24 22:47:47 Error: [MissingLayoutException] Layout file "/home/g031k117/public_html/cake/app/View/Layouts/Board.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/g031k117/public_html/cake/app/View/Layouts/Board.ctp',
+)
+Request URL: /~g031k117/cake/prac7s
+Stack Trace:
+#0 /home/g031k117/public_html/cake/lib/Cake/View/View.php(509): View->_getLayoutFileName('Board')
+#1 /home/g031k117/public_html/cake/lib/Cake/View/View.php(479): View->renderLayout('', 'Board')
+#2 /home/g031k117/public_html/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#3 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#4 /home/g031k117/public_html/cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(Prac7sController), Object(CakeRequest), Object(CakeResponse))
+#5 /home/g031k117/public_html/cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}

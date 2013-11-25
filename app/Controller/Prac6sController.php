@@ -2,6 +2,7 @@
     class Prac6sController extends AppController{
         public $name = "Prac6";
         public $components = array('DebugKit.Toolbar');
+        public $layout = 'prac';
 
         public function index(){
         }
